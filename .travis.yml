@@ -9,6 +9,7 @@ before_install:
   - rvm install ruby-2.4.2
 install:
   - eval "$(curl -sL https://swiftenv.fuller.li/install.sh)"
+  - swiftenv install 4.1
   - bundle install --without=documentation
 before_script:
   - bundle exec danger
