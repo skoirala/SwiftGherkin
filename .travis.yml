@@ -1,13 +1,13 @@
+language: generic
+sudo: required
+dist: trusty
+osx_image: xcode9
 os:
   - linux
   - osx
 env:
   - SWIFT_VERSION=4.0
   - SWIFT_VERSION=4.1
-language: generic
-sudo: required
-dist: trusty
-osx_image: xcode9
 before_install:
   - rvm install ruby-2.4.2
 install:
